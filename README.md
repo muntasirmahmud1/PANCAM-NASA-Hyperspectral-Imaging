@@ -8,4 +8,4 @@
 (a) Monochromatic laser lines are affected by smile aberration, (b) detection and clustering of laser emission lines to develop the correction matrix and (c) after applying the image correction.
 
 # PANCAM Operation Software
-![image alt](https://github.com/muntasirmahmud1/Hyperspectral-Imaging/blob/72b07692d4dc2493aabce7cf9ec31804bf3a04c7/Image/PANCAM_gui.png)
+![image alt](https://github.com/muntasirmahmud1/Hyperspectral-Imaging/blob/5f568300f3f27e5bb0e8cf4ce92453ec6eadafe2/Image/PANCAM_gui.png)
