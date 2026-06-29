@@ -1,4 +1,3 @@
-```markdown
 <table>
 <tr>
 <td width="110">
