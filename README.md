@@ -12,7 +12,7 @@
 
 **NASA SBIR Sponsored Project**
 
-A compact hyperspectral imaging system for atmospheric remote sensing, designed to measure trace gases such as nitrogen dioxide (NO₂) from ground-based observations.
+A compact hyperspectral imaging system for atmospheric remote sensing, designed to measure real-time trace gases such as nitrogen dioxide (NO₂) from ground-based observations.
 
 </td>
 </tr>
