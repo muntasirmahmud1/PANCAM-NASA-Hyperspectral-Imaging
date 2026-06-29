@@ -22,7 +22,7 @@ A compact hyperspectral imaging system for atmospheric remote sensing, designed 
 
 ## Overview
 
-PANCAM is a hyperspectral imaging instrument that combines precision optics, automated calibration, advanced spectral processing, and AI-assisted software to perform atmospheric gas retrievals.
+PANCAM is a hyperspectral imaging instrument that combines precision optics, automated calibration, advanced spectral processing, and AI-assisted software to perform Real-time atmospheric gas retrievals.
 
 The project includes:
 
@@ -70,14 +70,13 @@ The resulting calibration products are used to convert the raw Level-0 measureme
 
 The PANCAM software provides an integrated graphical user interface (GUI) for instrument operation, including:
 
-- Camera control
-- Motor control
-- Filter wheel operation
+- Camera, Motor and Filter wheel control
 - Automated scanning
 - Live RGB preview
 - Hyperspectral image acquisition
+- Reconstruct scanned area image
 - Calibration workflows
-- Real-time visualization
+- Real-time L1 and L2 data conversion and visualization
 - Data processing and export
 
 <p align="center">
