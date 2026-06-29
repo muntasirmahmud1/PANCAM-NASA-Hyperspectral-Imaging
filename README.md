@@ -1,26 +1,129 @@
-<h1 align="center">
-  This project is sponsored by NASA SBIR
-</h1>
+```markdown
+<table>
+<tr>
+<td width="110">
 
-<p align="center">
-  <img src="Image/pancam_logo.png" width="220" alt="PANCAM Logo">
-</p>
+<img src="Image/pancam_logo.png" width="90">
 
-<p align="center">
-Framework
-</p>
+</td>
 
+<td>
 
-# This project is sponsored by NASA SBIR
-![image alt](https://github.com/muntasirmahmud1/PANCAM-NASA-Hyperspectral-Imaging/blob/25160e170ddd6e3d490ef281aafa977b0ca833d4/Image/pancam_logo.png)
+# PANCAM Hyperspectral Imaging for Atmospheric Gas Retrieval
+
+**NASA SBIR Sponsored Project**
+
+A compact hyperspectral imaging system for atmospheric remote sensing, designed to measure trace gases such as nitrogen dioxide (NO₂) from ground-based observations.
+
+</td>
+</tr>
+</table>
+
+---
+
+## Overview
+
+PANCAM is a hyperspectral imaging instrument that combines precision optics, automated calibration, advanced spectral processing, and AI-assisted software to perform atmospheric gas retrievals.
+
+The project includes:
+
+- Hyperspectral image acquisition
+- Instrument calibration and characterization
+- Level-0 (raw) to Level-1 (radiometrically calibrated) processing
+- Differential Optical Absorption Spectroscopy (DOAS) based Level-2 NO₂ retrieval
+- Real-time instrument control and visualization
+- Agentic AI assistant for automated analysis, diagnostics, and workflow support
+
+---
+
 # Framework
-![image alt](https://github.com/muntasirmahmud1/Hyperspectral-Imaging/blob/a58dde5d609d776fe46ea6e141e8f15be120b73f/Image/framework2.png)
 
-# Image Correction
+The overall processing workflow from instrument calibration to atmospheric gas retrieval.
 
-![image alt](https://github.com/muntasirmahmud1/Hyperspectral-Imaging/blob/366b8def7a5ca6f7611a00686c94c143aa214b32/Image/image%20correction.png)
+<p align="center">
+<img src="Image/PANCAM_workflow.png" width="900">
+</p>
 
-(a) Monochromatic laser lines are affected by smile aberration, (b) detection and clustering of laser emission lines to develop the correction matrix and (c) after applying the image correction.
+---
+
+# Calibration
+
+Accurate calibration is essential for quantitative atmospheric retrievals.
+
+PANCAM is calibrated using several laboratory light sources, including:
+
+- Laser sources for spectral resolution and wavelength calibration
+- Mercury (Hg) lamp
+- Krypton (Kr) lamp
+- Xenon (Xe) lamp
+- Integrating sphere and calibrated lamps for radiometric calibration
+- Flat-field and detector characterization measurements
+
+The resulting calibration products are used to convert the raw Level-0 measurements into calibrated Level-1 spectra, which are subsequently used for Level-2 atmospheric gas retrievals.
+
+<p align="center">
+<img src="Image/calibration_main_steps.png" width="900">
+</p>
+
+---
 
 # PANCAM Operation Software
-![image alt](https://github.com/muntasirmahmud1/Hyperspectral-Imaging/blob/5f568300f3f27e5bb0e8cf4ce92453ec6eadafe2/Image/PANCAM_gui.png)
+
+The PANCAM software provides an integrated graphical user interface (GUI) for instrument operation, including:
+
+- Camera control
+- Motor control
+- Filter wheel operation
+- Automated scanning
+- Live RGB preview
+- Hyperspectral image acquisition
+- Calibration workflows
+- Real-time visualization
+- Data processing and export
+
+<p align="center">
+<img src="Image/PANCAM_gui.png" width="900">
+</p>
+
+---
+
+# Hyperspectral Image Cube
+
+Each scan is reconstructed into a hyperspectral image cube containing two spatial dimensions and one spectral dimension, enabling detailed spectral analysis for every image pixel.
+
+<p align="center">
+<img src="Image/hsi_cube_steps.png" width="900">
+</p>
+
+---
+
+# Sky, Sun and Moon Imaging
+
+PANCAM supports multiple observation geometries, including sky scans, direct Sun observations, and Moon measurements for atmospheric monitoring under different illumination conditions.
+
+<p align="center">
+<img src="Image/sky_sun_moon_cube.png" width="900">
+</p>
+
+---
+
+# Agentic AI Assistant
+
+The PANCAM software integrates an Agentic AI Assistant to improve instrument usability and data analysis.
+
+Features include:
+
+- Instrument diagnostics
+- Calibration guidance
+- Automated quality assessment
+- Retrieval troubleshooting
+- Software assistance
+- Scientific workflow support
+- Natural language interaction for data analysis and visualization
+
+---
+
+## Project Status
+
+🚧 This repository is under active development. New features, calibration improvements, and retrieval algorithms are continuously being added.
+```
