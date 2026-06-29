@@ -1,3 +1,16 @@
+<h1 align="center">
+  This project is sponsored by NASA SBIR
+</h1>
+
+<p align="center">
+  <img src="Image/pancam_logo.png" width="220" alt="PANCAM Logo">
+</p>
+
+<p align="center">
+Framework
+</p>
+
+
 # This project is sponsored by NASA SBIR
 ![image alt](https://github.com/muntasirmahmud1/PANCAM-NASA-Hyperspectral-Imaging/blob/25160e170ddd6e3d490ef281aafa977b0ca833d4/Image/pancam_logo.png)
 # Framework
