@@ -1,0 +1,203 @@
+# --------------------------------------------------
+# PANCAM OPERATION FILE (OF)
+# --------------------------------------------------
+
+OF_VERSION = 1.0
+INSTRUMENT_NAME = Pancam01
+INSTRUMENT_TYPE = PANCAM
+INSTRUMENT_NUMBER = 1
+
+DATA_ORIGINATOR = Muntasir Mahmud
+LOCAL_PI = Muntasir Mahmud
+
+# --------------------------------------------------
+# LOCATION INFORMATION
+# --------------------------------------------------
+
+SITE_NAME = SciGlob
+LATITUDE_DEG = 39.179288
+LONGITUDE_DEG = -76.847918
+ALTITUDE_M = 90.0
+TIMEZONE = America/New_York
+
+# --------------------------------------------------
+# MOTOR / VIEWING GEOMETRY
+# --------------------------------------------------
+
+AZ0_VIEW_AZIMUTH_DEG = 107.5 # 105.5
+AZ_VIEW_SIGN = -1.0
+
+ZN0_VIEW_ZENITH_DEG = 0.0
+ZN_VIEW_SIGN = 1.0
+
+# --------------------------------------------------
+# CAMERA INFORMATION
+# --------------------------------------------------
+
+CAMERA_TYPE = IDS
+SENSOR_WIDTH_PIXELS = 1440
+SENSOR_HEIGHT_PIXELS = 1080
+
+CROP_Y0 = 290
+CROP_Y1 = 990
+
+ADC_BITS = 12
+PIXEL_FORMAT = Mono12
+
+EXPOSURE_MIN_MS = 0.03  #Minimum exposure time [ms]
+EXPOSURE_MAX_MS = 2000.0  #Maximum exposure time [ms]
+
+# --------------------------------------------------
+# FILTER WHEEL
+# --------------------------------------------------
+
+FW_POS_1 = OPEN
+FW_POS_2 = OPEN
+FW_POS_3 = OPEN
+FW_POS_4 = ND0.3
+FW_POS_5 = ND1.3
+FW_POS_6 = ND3
+FW_POS_7 = OPAQUE
+FW_POS_8 = OPEN
+FW_POS_9 = OPEN
+
+# --------------------------------------------------
+# GLOBAL SCAN / SAVE SETTINGS
+# --------------------------------------------------
+
+BASE_DATA_DIR = ./data
+SAVE_RAW_PNG = True
+SAVE_RAW_NPY = False
+
+BIT_DEPTH = 12
+GAIN = 1.0
+
+GOOD_MIN_FRAC = 0.60
+GOOD_MAX_FRAC = 0.98
+USE_PERCENTILE_FOR_EXPOSURE = True
+EXPOSURE_CONTROL_PERCENTILE = 99.9
+SAT_PIXEL_FRACTION_LIMIT = 0.001
+
+SETTLE_TIME_SEC = 0.50
+FRAME_SETTLE_DELAY = 0.05
+
+USE_EXPOSURE_NORMALIZED_RECON = True
+USE_DISPLAY_NORMALIZED_RECON = True
+RECON_DISPLAY_P_LOW = 1
+RECON_DISPLAY_P_HIGH = 99
+
+# Use bad pixel mask only if loaded from Calibration File folder
+USE_BAD_PIXEL_MASK_IF_AVAILABLE = True
+BAD_PIXEL_MASK_FILE = bad_pixel_mask.npy
+
+# --------------------------------------------------
+# MANUAL AZIMUTH SCAN DEFAULTS
+# GUI spinBoxes override scan range, exposure min/max, and N
+# --------------------------------------------------
+
+MANUAL_SCAN_EXPOSURE_MS = 500.00
+MANUAL_SCAN_GAIN = 1.0
+
+MANUAL_SCAN_FILTER_START_POS = 3
+MANUAL_SCAN_FILTER_DEFAULT_POS = 3
+MANUAL_SCAN_FILTER_DARK_POS = 7
+MANUAL_SCAN_FILTER_SEQUENCE = 3,4,5,6
+
+MANUAL_SCAN_VIEW_ZN_REF_DEG = 0.0
+MANUAL_SCAN_CAMERA_ROT_STEPS = -875
+
+# --------------------------------------------------
+# SHORT SKY AZIMUTH SCAN
+# --------------------------------------------------
+
+SHORT_SKY_SCAN_EXPOSURE_MS = 500.00
+SHORT_SKY_SCAN_EXPOSURE_MIN_MS = 0.03
+SHORT_SKY_SCAN_EXPOSURE_MAX_MS = 2000.00
+SHORT_SKY_SCAN_GAIN = 1.0
+
+SHORT_SKY_SCAN_FILTER_START_POS = 3
+SHORT_SKY_SCAN_FILTER_DEFAULT_POS = 3
+SHORT_SKY_SCAN_FILTER_DARK_POS = 7
+SHORT_SKY_SCAN_FILTER_SEQUENCE = 3,4,5,6
+
+SHORT_SKY_SCAN_VIEW_AZ_START_DEG = 85.0
+SHORT_SKY_SCAN_VIEW_AZ_END_DEG = 115.0
+SHORT_SKY_SCAN_VIEW_AZ_STEP_DEG = 0.1
+SHORT_SKY_SCAN_VIEW_ZN_FIXED_DEG = 75.0
+
+SHORT_SKY_SCAN_VIEW_ZN_REF_DEG = 0.0
+SHORT_SKY_SCAN_CAMERA_ROT_STEPS = -875
+SHORT_SKY_SCAN_N = 1
+
+# --------------------------------------------------
+# LONG SKY AZIMUTH SCAN
+# --------------------------------------------------
+
+LONG_SKY_SCAN_EXPOSURE_MS = 500.00
+LONG_SKY_SCAN_EXPOSURE_MIN_MS = 0.03
+LONG_SKY_SCAN_EXPOSURE_MAX_MS = 2000.00
+LONG_SKY_SCAN_GAIN = 1.0
+
+LONG_SKY_SCAN_FILTER_START_POS = 3
+LONG_SKY_SCAN_FILTER_DEFAULT_POS = 3
+LONG_SKY_SCAN_FILTER_DARK_POS = 7
+LONG_SKY_SCAN_FILTER_SEQUENCE = 3,4,5,6
+
+LONG_SKY_SCAN_VIEW_AZ_START_DEG = 55.0
+LONG_SKY_SCAN_VIEW_AZ_END_DEG = 115.0
+LONG_SKY_SCAN_VIEW_AZ_STEP_DEG = 0.1
+LONG_SKY_SCAN_VIEW_ZN_FIXED_DEG = 75.0
+
+LONG_SKY_SCAN_VIEW_ZN_REF_DEG = 0.0
+LONG_SKY_SCAN_CAMERA_ROT_STEPS = -875
+LONG_SKY_SCAN_N = 1
+
+# --------------------------------------------------
+# SUN AZIMUTH SCAN
+# --------------------------------------------------
+
+SUN_SCAN_CROP_Y0 = 660
+SUN_SCAN_CROP_Y1 = 800
+
+SUN_AZ_SCAN_HALF_RANGE_DEG = 1.0
+SUN_AZ_SCAN_STEP_DEG = 0.03
+
+SUN_SCAN_EXPOSURE_MS = 20.00
+SUN_SCAN_EXPOSURE_MIN_MS = 0.03
+SUN_SCAN_EXPOSURE_MAX_MS = 20.00
+SUN_SCAN_GAIN = 1.0
+
+SUN_SCAN_FILTER_START_POS = 6
+SUN_SCAN_FILTER_DEFAULT_POS = 6
+SUN_SCAN_FILTER_DARK_POS = 7
+SUN_SCAN_FILTER_SEQUENCE = 6 #5,6
+
+SUN_SCAN_VIEW_ZN_REF_DEG = 0.0
+SUN_SCAN_CAMERA_ROT_STEPS = -875
+SUN_SCAN_N = 1
+
+# --------------------------------------------------
+# MOON AZIMUTH SCAN
+# --------------------------------------------------
+
+MOON_SCAN_CROP_Y0 = 680
+MOON_SCAN_CROP_Y1 = 820
+
+MOON_AZ_SCAN_HALF_RANGE_DEG = 0.5
+MOON_AZ_SCAN_STEP_DEG = 0.03
+
+MOON_SCAN_EXPOSURE_MS = 500.00
+MOON_SCAN_EXPOSURE_MIN_MS = 0.03
+MOON_SCAN_EXPOSURE_MAX_MS = 2000.00
+MOON_SCAN_GAIN = 1.0
+
+MOON_SCAN_FILTER_START_POS = 3
+MOON_SCAN_FILTER_DEFAULT_POS = 3
+MOON_SCAN_FILTER_DARK_POS = 7
+MOON_SCAN_FILTER_SEQUENCE = 3,4,5
+
+MOON_SCAN_VIEW_ZN_REF_DEG = 0.0
+MOON_SCAN_CAMERA_ROT_STEPS = -875
+MOON_SCAN_N = 1
+
+
