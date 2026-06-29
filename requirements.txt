@@ -1,0 +1,10 @@
+numpy==1.24.4
+opencv-python==4.10.0.84
+PySide6
+pyqtgraph==0.13.3
+pandas
+pvlib
+requests
+pyserial
+matplotlib
+cupy-cuda12x==13.3.0
