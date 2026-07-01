@@ -127,5 +127,7 @@ Features include:
 If you need more information or full code, please contact: 
 
 Muntasir Mahmud
+
 AI Research Scientist
+
 mmahmud@sciglob.com
