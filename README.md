@@ -1,8 +1,8 @@
 <table>
 <tr>
-<td width="130">
+<td width="110">
 
-<img src="Image/pancam_logo.png" width="100">
+<img src="Image/pancam_logo.png" width="110">
 
 </td>
 
