@@ -1,6 +1,6 @@
 <table>
 <tr>
-<td width="110">
+<td width="150">
 
 <img src="Image/pancam_logo.png" width="110">
 
