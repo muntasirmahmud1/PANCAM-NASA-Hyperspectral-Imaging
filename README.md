@@ -2,7 +2,7 @@
 <tr>
 <td width="120">
 
-<img src="Image/pancam_logo.png" width="110">
+<img src="Image/pancam_logo.png" width="120">
 
 </td>
 
