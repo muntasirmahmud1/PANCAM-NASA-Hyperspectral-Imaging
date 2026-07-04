@@ -11,7 +11,7 @@ from motion_control import init_motion, shutdown_motion, rotate_camera, set_filt
 # ==========================
 # USER CONFIG
 # ==========================
-open_filterwheel_pos = 1
+open_filterwheel_pos = 3
 opaque_filterwheel_pos = 7
 camera_motor_pos = 1000
 
