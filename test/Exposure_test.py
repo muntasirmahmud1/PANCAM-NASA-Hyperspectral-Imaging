@@ -27,8 +27,8 @@ N_AVG  = 10   # open_filterwheel_pos
 
 # Camera
 CAM_INDEX = 0
-WIDTH = 1280
-HEIGHT = 800
+WIDTH = 1440
+HEIGHT = 1080
 
 # Delay/timing (tune if needed)
 SETTLE_AFTER_FILTER_S = 3 #0.8
