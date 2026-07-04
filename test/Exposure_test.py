@@ -12,7 +12,7 @@ from motion_control import init_motion, shutdown_motion, rotate_camera, set_filt
 # USER CONFIG
 # ==========================
 open_filterwheel_pos = 1
-opaque_filterwheel_pos = 5
+opaque_filterwheel_pos = 7
 camera_motor_pos = 1000
 
 exposure_test = [500, 400, 300, 200, 100, 50, 20, 10]
