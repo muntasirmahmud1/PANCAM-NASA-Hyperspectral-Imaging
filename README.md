@@ -33,6 +33,20 @@ The project includes:
 - Real-time instrument control and visualization
 - Agentic AI assistant for automated analysis, diagnostics, and workflow support
 
+<br>
+
+<table>
+<tr>
+<td align="center">
+<img src="Image/pancam_outdoor_1.png" width="450">
+</td>
+
+<td align="center">
+<img src="Image/pancam_outdoor_2.png" width="450">
+</td>
+</tr>
+</table>
+
 ---
 
 # Framework
