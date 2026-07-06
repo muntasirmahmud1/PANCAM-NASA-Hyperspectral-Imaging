@@ -34,8 +34,8 @@ The project includes:
 - Agentic AI assistant for automated analysis, diagnostics, and workflow support
 
 <p align="center">
-  <img src="Image/pancam_outdoor_1.png" width="400" height="250">
-  <img src="Image/pancam_outdoor_2.png" width="400" height="250">
+  <img src="Image/pancam_outdoor_1.JPG" width="400" height="250">
+  <img src="Image/pancam_outdoor_2.JPG" width="400" height="250">
 </p>
 
 <p align="center">
