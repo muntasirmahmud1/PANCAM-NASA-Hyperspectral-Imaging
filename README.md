@@ -33,19 +33,14 @@ The project includes:
 - Real-time instrument control and visualization
 - Agentic AI assistant for automated analysis, diagnostics, and workflow support
 
-<br>
+<p align="center">
+  <img src="Image/pancam_outdoor_1.png" width="400" height="250">
+  <img src="Image/pancam_outdoor_2.png" width="400" height="250">
+</p>
 
-<table>
-<tr>
-<td align="center">
-<img src="Image/pancam_outdoor_1.JPG" width="450">
-</td>
-
-<td align="center">
-<img src="Image/pancam_outdoor_2.JPG" width="450">
-</td>
-</tr>
-</table>
+<p align="center">
+<b>PANCAM prototype deployed for outdoor atmospheric measurements.</b>
+</p>
 
 ---
 
