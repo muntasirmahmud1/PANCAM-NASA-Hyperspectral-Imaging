@@ -38,11 +38,11 @@ The project includes:
 <table>
 <tr>
 <td align="center">
-<img src="Image/pancam_outdoor_1.png" width="450">
+<img src="Image/pancam_outdoor_1.JPG" width="450">
 </td>
 
 <td align="center">
-<img src="Image/pancam_outdoor_2.png" width="450">
+<img src="Image/pancam_outdoor_2.JPG" width="450">
 </td>
 </tr>
 </table>
