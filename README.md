@@ -49,7 +49,7 @@ The project includes:
 The overall processing workflow from instrument calibration to atmospheric gas retrieval.
 
 <p align="center">
-<img src="Image/PANCAM_workflow.png" width="1000">
+<img src="Image/PANCAM_workflow.png" width="900">
 </p>
 
 ---
