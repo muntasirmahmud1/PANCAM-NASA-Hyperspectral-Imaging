@@ -67,7 +67,7 @@ PANCAM is calibrated using several laboratory light sources, including:
 - Integrating sphere and calibrated lamps for radiometric calibration
 - Flat-field and detector characterization measurements
 
-The resulting calibration products are used to convert the raw Level-0 measurements into calibrated Level-1 spectra, which are subsequently used for Level-2 atmospheric gas retrievals.
+The laser and lamp requirements are changed depending on the wavelength range selected. The resulting calibration products are used to convert the raw Level-0 measurements into calibrated Level-1 spectra, which are subsequently used for Level-2 atmospheric gas retrievals.
 
 <p align="center">
 <img src="Image/calibration_main_steps.png" width="900">
