@@ -22,12 +22,11 @@ from calibration_common import (
     LiveUI,
 )
 
-
 # =========================================================
 # USER CONFIG
 # =========================================================
 
-BASE_SAVE_DIR = r"C:\Users\Administrator\Desktop\Python Code\HSI_ids\2_hsi_jetson\data\session_4"
+BASE_SAVE_DIR = r"HSI_ids\2_hsi_jetson\data\session_4"
 
 # Windows
 MOTOR_PORT = "COM23"
@@ -88,7 +87,6 @@ GRAB_TIMEOUT_MS = 5000
 
 # Optimization behavior
 MAX_OPT_ITERS = 20
-
 
 # =========================================================
 # MAIN APP
