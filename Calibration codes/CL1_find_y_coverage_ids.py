@@ -79,7 +79,6 @@ def moving_average_1d(x: np.ndarray, k: int) -> np.ndarray:
     kernel = np.ones(k, dtype=np.float64) / k
     return np.convolve(xp, kernel, mode="valid")
 
-
 def longest_true_run(mask: np.ndarray):
     """
     Return (start_idx, end_idx) inclusive for the longest True run.
@@ -112,7 +111,6 @@ def longest_true_run(mask: np.ndarray):
         return None
 
     return best_start, best_end
-
 
 def find_covered_rows(gray: np.ndarray):
     """
