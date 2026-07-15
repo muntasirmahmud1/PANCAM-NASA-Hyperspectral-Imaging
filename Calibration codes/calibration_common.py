@@ -191,7 +191,7 @@ def build_capture_metadata_row(
         "p99_dn": round(float(metrics["p99_dn"]), 4),
         "p999_dn": round(float(metrics["p999_dn"]), 4),
         "control_dn": round(float(metrics["control_dn"]), 4),
-        "sat_fraction": round(float(metrics["sat_fraction"]), 8),
+        "sat_fraction": round(float(metrics["sat_fraction"]), 6),
         "saturated": bool(metrics["saturated"]),
         "good": bool(metrics["good"]),
         "use_y_crop": bool(use_y_crop),
