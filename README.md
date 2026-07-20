@@ -109,7 +109,7 @@ Each scan is reconstructed into a hyperspectral image cube containing two spatia
 PANCAM supports multiple observation geometries, including sky scans, direct Sun observations, and Moon measurements for atmospheric monitoring under different illumination conditions.
 
 <p align="center">
-<img src="Image/sky_sun_moon_cube.png" width="800">
+<img src="Image/sky_sun_moon_cube.png" width="900">
 </p>
 
 ---
