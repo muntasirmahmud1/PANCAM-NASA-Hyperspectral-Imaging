@@ -1,7 +1,6 @@
 from PySide6.QtWidgets import QApplication
 import sys
-from app.main_window_v3 import PANCAM_UI
-
+from app.main_window_v4 import PANCAM_UI
 
 # ============================================================
 # APP ENTRY POINT
