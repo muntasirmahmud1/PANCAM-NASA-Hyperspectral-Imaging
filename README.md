@@ -121,7 +121,7 @@ The PANCAM software integrates an Agentic AI Assistant to improve instrument usa
 Features include:
 
 - Instrument diagnostics
-- Calibration guidance
+- Scan assistance
 - Automated quality assessment
 - Retrieval troubleshooting
 - Software assistance
