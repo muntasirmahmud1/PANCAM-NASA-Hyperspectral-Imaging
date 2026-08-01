@@ -128,6 +128,8 @@ Features include:
 - Scientific workflow support
 - Natural language interaction for data analysis and visualization
 
+There are multiple agents to assist user such as GUI help agent, hardware control agent and scan quality check agent etc.
+
 ---
 
 ## Project Status
